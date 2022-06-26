@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    width: 750px;
+    margin: auto;
+
+}
+
+
+body{
+    background-color: #000;   
+    font-family: 'Roboto', sans-serif; 
+    font-weight: normal ;
+    font-size:  21 px;
+    color:#fff;
+    }
+
+h2{
+    padding-bottom: 10px; ;
+}
+.avatar{
+    width: 20%;
+    border-radius: 15px;
+    margin: 10px 10px;
+    box-shadow: 4px 4px 14px rgba(177, 175, 175, 0.425);
+}
+.link{
+    width: 20%;
+    border: solid 2px #fff;  
+    border-radius: 15px;
+    position: relative;
+    padding:10px;
+    margin: 10px;
+}
+    
+a:hover{
+    opacity: .8;
+    color: rgb(0, 0, 0);     
+}
+
+a {     
+    display: flex;
+    background: rgb(3, 27, 240);
+    padding: 15px;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 15px;
+    box-shadow: 4px 4px 14px rgba(177, 175, 175, 0.425);
+}
+
+.a1, .a2, .a3{
+    margin-bottom: 10px;
+    justify-content: center;
+   
+}
+
+        
+.info{
+    display: flex;
+}
+.info-text p {
+    font-style: italic;
+    font-size: 22px;  
+}
+
+
+.exp, .skill {
+    margin: auto;
+}
+
+.exp td:hover, .skill td:hover {
+    background: #161614c9;
+}
+.exp th{
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+.exp th, tr, td{
+    
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skill th{
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    border-radius: 10px;
+}
+
+.skill td:nth-child(even), .skill th:nth-child(even) {
+    background: #0304368e;
+}
+
+
+.info-text, .card-hobby, .card-exp, .card-skill, .card-contact {
+   
+    border: solid 2px #fff;  
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 10px;
+    
+}
+
+.hobby li{
+padding-bottom: 15px;
+padding-left: 5px;
+} 
+
+.bg_DarkSlateGray{
+    background: #030436;
+}
+
+
+.card-contact h2 {
+    text-align: center;
+}
+.name_mail {
+   
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.name_mail  .form-group{
+/* display:inline-block ; */
+margin-right: 20px;
+/* width: calc(50% - 20px);  */
+width: 50%;
+}
+
+.name_mail, .form-group:last-child{
+    margin-right: 0;
+}
+
+.form-group label{
+    display:block;
+    font-size: 14px;    
+}
+
+.form-group input, 
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   /* transparent-прозрачный */
+   border-bottom: 1px solid chartreuse;
+   color: #fff;
+   padding: 15px 0 10px ;
+   outline: none; 
+   font-family: inherit;
+}
+
+
+.btn{
+    background: rgb(75, 74, 74);
+    font-size: 15px;
+    padding: 15px;
+    margin-left: none;
+    margin-top: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+    text-decoration: none;   
+}
+.btn:hover{
+    opacity: .8;
+    color: rgba(223, 186, 21, 0.925);
+    
+}
+
+@media(max-width: 600px){
+    
+    .container{
+        width: 530px;
+       
+    }
+
+    .info-text p, .info-text{
+        font-size: 0.98rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .avatar{
+        width: 28%;
+        border-radius: 15px;
+        margin: 10px 10px;
+        box-shadow: 4px 4px 14px rgba(177, 175, 175, 0.425);
+    }
+    .card-hobby, .card-contact, .card-exp, .card-skill{
+        font-size: 0.75rem;
+    }
+    
+}

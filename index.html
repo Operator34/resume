@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- кодировка языка -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- инфо как правильно читать страницу для IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "keywords" content = "Резюме, IT, CSS, html, Верстка, Веб, fronted, разработчик">
+    <!-- ключевые слова для поисковика -->
+    <meta name="description" content="Резюме junior fronted разработчика">
+    <!-- Краткое описание о странице которая показывается в поисковике -->
+    <title>Обо мне</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+   
+    <div class="info">
+
+    <img src="AV2.jpg" class="avatar" width="150" alt="Здесь должен быть аватар">
+<!-- вставка картинки из проекта, width - размер, alt - что написать если нет картинки по ссылке-->
+    
+    
+        <div class="info-text">
+            <h1>Андрей Логинов</h1>
+            <p> Мне 31 год, работаю более 10 лет в ритейле, хочу стать fronted разработчиком.</p> 
+        </div>  
+        
+        <div class="link">
+            <a href="https://vk.com/operator34" class="a1 "  target="_blank"> VK </a>
+            <a href="https://tlgg.ru/operator34" class= "a2" target="_blank"> Telegram </a>
+            <a href="https://wa.me/+79258278009" class= "a3" target="_blank"> WhatsApp </a>
+            <!-- <a href="img_links.html"> Открыть внутреннюю ссылку </a> -->
+            <!-- ссылки и текст ссылки /target="_blank"/ открывает ссылку на новой вкладке -->
+        </div>
+    </div>
+
+
+    
+    
+    <div class="card-hobby bg_DarkSlateGray">
+        <h2>Мои хобби</h2>
+            <div class="hobby">
+                <ul>
+                <li>Путешествия</li>
+                <li>Велопрогулки</li>
+                <li>Смотреть ролики на Youtube</li>
+                <li>Изучать новое</li> 
+                <li>Программирование</li>
+                <li>Электротехника</li>
+                </ul>  
+            </div>
+    </div>
+    
+    <div class="card-exp">
+        <h2>Опыт работы</h2>
+        
+        <table class="exp">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>ООО МВМ</td>
+                    <td>Директор</td>
+                    <td>2016-по настоящее время</td>
+                </tr>
+                <tr>
+                    <td>ООО МВМ</td>
+                    <td>Менеджер</td>
+                    <td>2013-2016</td>
+                </tr>
+                <tr>
+                    <td>ООО МВМ</td>
+                    <td>Продавец</td>
+                    <td>2010-2013</td>
+                </tr>
+                <tr>
+                    <td>ООО Правозащита</td>
+                    <td>Риелтор</td>
+                    <td>2009-2010</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="card-skill">
+        <h2>Навыки</h2>
+
+        <table class="skill" >
+        
+            <thead>
+                <tr>
+                    <th>Hard skill</th>
+                    <th>Soft skill</th>
+                </tr>
+            
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sap bi</td>
+                    <td>Управление временем</td>
+                </tr>
+                <tr>
+                    <td>MS Office</td>
+                    <td>Коммуникабельность</td>
+                </tr>
+                <tr>
+                    <td>HTML CSS</td>
+                    <td>Умение слушать</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="card-hobby bg_DarkSlateGray">
+        <h2>Курсы</h2>
+            <div class="hobby">
+            <ul>
+                <li>Программа аспирант для руководителей</li>
+                <li>HTML CSS</li>
+                <li>Excel</li>
+                <li>Английский язык базовый</li>
+                <li>JavaScript</li>
+            </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="card-contact">
+    <h2>Связаться со мной</h2>
+    
+        <div class="name_mail">
+            <div class="form-group">
+                <label for="text2"> Ваше имя </label>
+                
+                <input type="text" id="text2" placeholder="Введите имя"> 
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                
+                <input type="email" id="email" placeholder="Введите email" > 
+            </div>
+        </div>     
+         
+        <div class="form-group">
+            <label for="messege"> Введите сообщение </label>
+        
+            <textarea id ="message" rows="5" cols="20" placeholder="Введите текст"></textarea>    
+        </div>       
+        <button class="btn"> Отправить форму </button>
+        
+    </div>
+</div>
+    
+</body>
+</html>
